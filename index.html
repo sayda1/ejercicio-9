@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>parrotTrouble</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+           <h1>ParrotTrouble</h1>
+            <div class="col-md-8">
+                <div class="caja">
+                    <label for="parrot">El loro esta hablando? </label>
+                    <select  id="habla" class="form-control" placeholder="elegir opcion">
+                    <option value="1">Si</option>
+                    <option value="2">No</option>
+                </select>
+                </div>
+            </div>
+            <div class="col-md-4">
+               <label for="hora">Que hora es?</label>
+               <input id="hora" class="form-control" type="text" placeholder="Colocar la hora"> 
+            </div>
+        </div>
+        <div class="text-center" style="margin:20px 0px">
+            <button onclick="evaluar()">EVALUAR</button>
+            
+            <div id="salida">-</div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
+
+
+
+
+

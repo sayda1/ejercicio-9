@@ -1,0 +1,43 @@
+*{
+    outline: 1px solid white;
+}
+body{
+    background-image: url(../img/loro.jpg);
+    padding-top:15%;
+   
+}
+h1{
+    color: white;
+    text-align: center;
+}
+label{
+  color: white;
+    font-size: 20px;
+}
+button{
+    background:blue;
+    font-size: 25px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+}
+#salida{
+   margin: 20px 20em;
+   border: 3px solid black; 
+   border-radius: 10px;
+   padding: 8px;
+   background: white;
+   font-size: 20px;
+}
+h1:hover{
+   color: #ddcc22;
+}
+label:hover{
+    color: #ddcc22;
+    font-weight: bold;
+}
+button:hover{
+    background: #00e2ff;
+    color: black;
+}
