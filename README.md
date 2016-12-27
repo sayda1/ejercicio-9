@@ -4,16 +4,16 @@ Inicio:parrotTrouble
 
 ## Variables
 
-- parametro hora
-- rango  0 a 23
+- hora
+- hablando
 - mostrar resultado
 
 ## proceso
 
-- pedir  parametro
-- medir el rango
-- si el loro esta hablando en el rango estamos en problemas y retorna 1
-sino retorna 0
+- pedir  hora
+- si el loro esta hablando antes de las 7horas o despues de la 20horas  estamos en problemas y retorna 1
+
+- sino no estamos en problemas y retorna 0
 
 - mostrar resultado
 

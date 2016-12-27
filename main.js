@@ -16,7 +16,7 @@
         salida.innerHTML ="0"
     }
     if (habla == true && hora < 7 || hora > 20){
-        mensaje.i   nnerHTML ="problemas"
+        mensaje.innerHTML ="problemas"
     }
      else{
         mensaje.innerHTML ="NOproblemas"
